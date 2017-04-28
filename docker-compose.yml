@@ -9,7 +9,7 @@ services:
   jenkins:
     image: cjhuang/jenkins
     volumes:
-      - /home/[USER NAME]/Desktop/jenkins/data:/var/jenkins_home
+      - [your home path]:/var/jenkins_home
     networks:
       my_net:
         ipv4_address: 172.18.0.3
