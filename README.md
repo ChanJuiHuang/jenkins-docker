@@ -14,4 +14,4 @@ It is from https://hub.docker.com/_/jenkins/
 ## docker-compose.yml
 Yaml file composes jenkins and mongo DB to do test.
 
-[USER NAME] of volumes of yaml file have to be change to your user
+[your home path] of volumes of yaml file have to be change to your path which you want to store jenkins' data to
